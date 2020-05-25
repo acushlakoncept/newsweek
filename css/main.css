@@ -147,6 +147,11 @@ a {
   font-weight: bold;
 }
 
+.img-content__link:hover {
+  color: #f92859;
+  text-decoration: none;
+}
+
 .img-content__author {
   text-transform: uppercase;
   font-size: 11px;
@@ -190,4 +195,30 @@ a {
   top: 50%;
   right: 100%;
   width: 500px;
+}
+
+
+/* OPINION */
+.opinion {
+    padding-bottom: 30px;
+}
+.opinion .img-content:not(:last-child) {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* MORE STORIES */
+.more-stories .img-content__img{
+    width: 95px;
+    height: 95px;
+}
+
+.more-stories .img-content {
+    grid-template-columns: 110px 1fr;
+    align-items: flex-start;
+}
+
+.more-stories .img-content:not(:first-child) {
+    padding-top: 15px;
 }

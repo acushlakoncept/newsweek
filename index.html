@@ -2,8 +2,38 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NewsWeek Clone</title>
+
+    <link rel="manifest" href="manifest.json" />
+
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="NewsWeek" />
+    <meta name="apple-mobile-web-app-title" content="NewsWeek" />
+    <meta name="theme-color" content="#f72310" />
+    <meta name="msapplication-navbutton-color" content="#f72310" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="msapplication-starturl" content="/" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="180x180"
+      href="https://g.newsweek.com/themes/newsweek/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="180x180"
+      href="https://g.newsweek.com/themes/newsweek/favicons/apple-touch-icon.png"
+    />
 
     <!-- Bootstrap CSS -->
     <link
@@ -84,6 +114,8 @@
           </div>
         </div>
       </div>
+
+      <!-- END OF TOP STORY -->
 
       <div class="row">
         <div class="col bg-white">
@@ -211,25 +243,32 @@
               alt="dinesh-dsouza"
               class="img-content__img"
             />
-           <div class="img-content__text">
-            <h4 class="img-content__title">
-                <a href="#">Capitalism Creates Social Justice</a>
+            <div class="img-content__text">
+              <h4 class="img-content__title">
+                <a href="#" class="img-content__link"
+                  >Capitalism Creates Social Justice</a
+                >
               </h4>
-              <h5 class="img-content__author"><span>By</span> Dinesh D'souza</h5>
-           </div>
+              <h5 class="img-content__author">
+                <span>By</span> Dinesh D'souza
+              </h5>
+            </div>
           </div>
           <div class="vs">
             <small class="vs-rule">VS</small>
           </div>
           <div class="img-content-reverse">
-            
             <div class="img-content__text">
-            <h4 class="img-content__title">
-              <a href="#"> Time Is Ripe for More Socialism </a>
-            </h4>
-            <h5 class="img-content__author"><span>By</span> Nathan Robinson</h5>
-        </div>
-        <img
+              <h4 class="img-content__title">
+                <a href="#" class="img-content__link">
+                  Time Is Ripe for More Socialism
+                </a>
+              </h4>
+              <h5 class="img-content__author">
+                <span>By</span> Nathan Robinson
+              </h5>
+            </div>
+            <img
               src="imgs/nathan-robinson.png"
               alt="nathan-robinson"
               class="img-content__img"
@@ -238,6 +277,322 @@
           <hr class="blue-rule" />
         </div>
       </div>
+
+      <!-- END OF THE DEBATE -->
+
+      <div class="row">
+        <div class="col bg-white">
+          <h2 class="article-category top-margin-small">
+            The Opinion
+          </h2>
+
+          <div class="article opinion">
+            <div class="img-content">
+              <img
+                src="imgs/newt-gingrich.webp"
+                alt="newt-gingrich"
+                class="img-content__img"
+              />
+              <div class="img-content__text">
+                <h4 class="img-content__title">
+                  <a href="#" class="img-content__link">
+                    On Memorial Day, Remember Why Americans Made the Ultimate
+                    Sacrifice
+                  </a>
+                </h4>
+                <h5 class="img-content__author">By Newt Gingrich</h5>
+              </div>
+            </div>
+
+            <div class="img-content">
+              <img
+                src="imgs/roff-new.png"
+                alt="roff-new"
+                class="img-content__img"
+              />
+              <div class="img-content__text">
+                <h4 class="img-content__title">
+                  <a href="#" class="img-content__link">
+                    Reopening America's Houses of Worship
+                  </a>
+                </h4>
+                <h5 class="img-content__author">By Peter Roff</h5>
+              </div>
+            </div>
+
+            <div class="img-content">
+              <img
+                src="imgs/christopher-dolan.png"
+                alt="christopher-dolan"
+                class="img-content__img"
+              />
+              <div class="img-content__text">
+                <h4 class="img-content__title">
+                  <a href="#" class="img-content__link">
+                    Trump's 'Blame China' Re-Election Strategy Might Seriously
+                    Backfire
+                  </a>
+                </h4>
+                <h5 class="img-content__author">By Chris Dolan</h5>
+              </div>
+            </div>
+
+            <div class="img-content">
+              <img
+                src="imgs/alexandra-hudson.png"
+                alt="alexandra-hudson"
+                class="img-content__img"
+              />
+              <div class="img-content__text">
+                <h4 class="img-content__title">
+                  <a href="#" class="img-content__link">
+                    George Washington's Rules of Civility Can Help Us With
+                    Coronavirus
+                  </a>
+                </h4>
+                <h5 class="img-content__author">By Alexandra Hudson</h5>
+              </div>
+            </div>
+
+            <div class="img-content">
+              <img
+                src="imgs/jeremy-farrar.png"
+                alt="jeremy-farrar"
+                class="img-content__img"
+              />
+              <div class="img-content__text">
+                <h4 class="img-content__title">
+                  <a href="#" class="img-content__link">
+                    Sharing a Coronavirus Vaccine Isn't a Matter of Altruism
+                  </a>
+                </h4>
+                <h5 class="img-content__author">By Jeremy Farrar</h5>
+              </div>
+            </div>
+
+            <div class="img-content">
+              <img
+                src="imgs/michael-mcconnell-max-raskin.png"
+                alt="michigan-car-wash-coronavirus"
+                class="img-content__img"
+              />
+              <div class="img-content__text">
+                <h4 class="img-content__title">
+                  <a href="#" class="img-content__link">
+                    From Hamilton to Trump: The Dueling Nature of Pandemic
+                    Politics
+                  </a>
+                </h4>
+                <h5 class="img-content__author">
+                  By Michael McConnell and Max Raskin
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- END OF THE OPINION -->
+
+      <div class="row">
+        <div class="col bg-white">
+          <h2 class="article-category top-margin-small">
+            More Stories
+          </h2>
+
+          <div class="article opinion more-stories">
+            <div class="img-content">
+              <img
+                src="imgs/bolsonaro.jpg"
+                alt="bolsonaro"
+                class="img-content__img"
+              />
+              <div class="img-content__text">
+                <h4 class="img-content__title">
+                  <a href="#" class="img-content__link">
+                    Brazil COVID-19 Cases Quadruple as Bolsonaro Plays Down U.S.
+                    Restrictions
+                  </a>
+                </h4>
+                <p class="img-content__text">
+                  Brazil is now second only to the U.S. in having the highest
+                  number of confirmed coronavirus cases in the world.
+                </p>
+              </div>
+            </div>
+
+            <div class="img-content">
+              <img
+                src="imgs/gun-rights-advocate-rally-kentucky.jpg"
+                alt="roff-new"
+                class="img-content__img"
+              />
+              <div class="img-content__text">
+                <h4 class="img-content__title">
+                  <a href="#" class="img-content__link">
+                    Republicans Condemn 'Disgusting' Gov. Andy Beshear Effigy
+                    Hung in Kentucky
+                  </a>
+                </h4>
+                <p class="img-content__text">
+                  Kentucky State officials condemn the act of hanging a dummy of
+                  Gov. Andy Beshear effigy during a Memorial Day weekend rally,
+                  as tempers run high due to coronavirus legislation.
+                </p>
+              </div>
+            </div>
+
+            <div class="img-content">
+              <img
+                src="imgs/venice-beach.jpg"
+                alt="christopher-dolan"
+                class="img-content__img"
+              />
+              <div class="img-content__text">
+                <h4 class="img-content__title">
+                  <a href="#" class="img-content__link">
+                    Crowds Flock to California Beaches Over Memorial Day Weekend
+                  </a>
+                </h4>
+                <p class="img-content__text">
+                  The long weekend traditionally signals the start of the summer
+                  in the U.S. and many people ignored safety concerns to mark
+                  the occasion.
+                </p>
+              </div>
+            </div>
+
+            <div class="img-content">
+              <img
+                src="imgs/hair-salon.jpg"
+                alt="alexandra-hudson"
+                class="img-content__img"
+              />
+              <div class="img-content__text">
+                <h4 class="img-content__title">
+                  <a href="#" class="img-content__link">
+                    Two Missouri Hairdressers Potentially Exposed 140 Clients to
+                    Coronavirus
+                  </a>
+                </h4>
+                <p class="img-content__text">
+                  Springfield-Greene County Health officials notified the public
+                  on Saturday that a second hair stylist from the Great Clips
+                  salon had tested positive for COVID-19.
+                </p>
+              </div>
+            </div>
+
+            <div class="img-content">
+              <img
+                src="imgs/kevin-hassett.jpg"
+                alt="jeremy-farrar"
+                class="img-content__img"
+              />
+              <div class="img-content__text">
+                <h4 class="img-content__title">
+                  <a href="#" class="img-content__link">
+                    Trump Economic Adviser: Full Employment Might Not Be Back
+                    This Fall
+                  </a>
+                </h4>
+                <p class="img-content__text">
+                  Earlier this month, the U.S. Bureau of Labor Statistics
+                  reported that the national unemployment rate had risen to 14.7
+                  percent.
+                </p>
+              </div>
+            </div>
+
+            <div class="img-content">
+              <img
+                src="imgs/dr-deborah-birx.jpg"
+                alt="michigan-car-wash-coronavirus"
+                class="img-content__img"
+              />
+              <div class="img-content__text">
+                <h4 class="img-content__title">
+                  <a href="#" class="img-content__link">
+                    Birx Says Curbing Coronavirus 'Only Works If We All Follow
+                    the Guidelines'
+                  </a>
+                </h4>
+                <p class="img-content__text">
+                  "We really made it clear that during this reopening social
+                  gatherings should not be more than 10 people," the White House
+                  coronavirus response coordinator cautioned.
+                </p>
+              </div>
+            </div>
+
+            <div class="img-content">
+              <img
+                src="imgs/china-vaccine-robert-obrien-advisor.jpg"
+                alt="michigan-car-wash-coronavirus"
+                class="img-content__img"
+              />
+              <div class="img-content__text">
+                <h4 class="img-content__title">
+                  <a href="#" class="img-content__link">
+                    U.S. Will Develop Coronavirus Vaccine Research First: White
+                    House
+                  </a>
+                </h4>
+                <p class="img-content__text">
+                  National Security Advisor Robert O'Brien said China is likely
+                  using espionage to try and steal U.S. coronavirus vaccine
+                  research, but he declared American scientists would develop it
+                  first.
+                </p>
+              </div>
+            </div>
+
+            <div class="img-content">
+              <img
+                src="imgs/hong-kong-protest.jpg"
+                alt="michigan-car-wash-coronavirus"
+                class="img-content__img"
+              />
+              <div class="img-content__text">
+                <h4 class="img-content__title">
+                  <a href="#" class="img-content__link">
+                    Protesters Call for 'Hong Kong Independence' as Police
+                    Arrest 180 People
+                  </a>
+                </h4>
+                <p class="img-content__text">
+                  The Hong Kong Police Force said that the demonstrators were
+                  detained for "unauthorized assembly, unlawful assembly and
+                  disorderly conduct in a public place."
+                </p>
+              </div>
+            </div>
+
+            <div class="img-content">
+              <img
+                src="imgs/governor-andrew-cuomo.jpg"
+                alt="michigan-car-wash-coronavirus"
+                class="img-content__img"
+              />
+              <div class="img-content__text">
+                <h4 class="img-content__title">
+                  <a href="#" class="img-content__link">
+                    Birx Says Curbing Coronavirus 'Only Works If We All Follow
+                    the Guidelines'
+                  </a>
+                </h4>
+                <p class="img-content__text">
+                  "We really made it clear that during this reopening social
+                  gatherings should not be more than 10 people," the White House
+                  coronavirus response coordinator cautioned.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- END OF MORE STORIES -->
     </main>
 
     <script

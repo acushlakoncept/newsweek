@@ -1,0 +1,15 @@
+{
+    "name": "NewsWeek Magazine",
+    "short_name": "NewsWeek",
+    "lang": "en",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#f72310",
+    "icons": [
+      {
+        "src": "https://g.newsweek.com/themes/newsweek/favicons/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      }
+    ]
+  }
