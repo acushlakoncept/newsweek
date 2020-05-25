@@ -8,7 +8,7 @@ body {
 }
 
 a {
-    color: #000;
+  color: #000;
 }
 
 /* UTILITY CLASS */
@@ -27,15 +27,15 @@ a {
 }
 
 .red-rule {
-    border-top: 2px solid var(--color-red);
+  border-top: 2px solid var(--color-red);
 }
 
 .blue-rule {
-    border-top: 2px solid #1c87fb;
+  border-top: 2px solid #1c87fb;
 }
 
-.top-margin-small{
-    margin-top: 15px;
+.top-margin-small {
+  margin-top: 15px;
 }
 
 /* UTILITY CLASS ENDS */
@@ -113,7 +113,7 @@ a {
 }
 
 .article-title:hover {
-    border-bottom: 1px solid var(--color-red);
+  border-bottom: 1px solid var(--color-red);
 }
 
 .article-text {
@@ -124,75 +124,70 @@ a {
 /* THE DEBATE  */
 
 .img-content {
-    display: grid;
-    grid-template-columns: 70px 1fr;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  align-items: center;
 }
 
 .img-content-reverse {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.img-content__img{
-    width: 63px;
-    height: 63px;
-    display: inline-block;
-  
+.img-content__img {
+  width: 63px;
+  height: 63px;
+  display: inline-block;
 }
 
 .img-content__title {
-    display: inline-block;
-    font-size: 16px;
-    font-weight: bold;
-    
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
 }
 
-.img-content__author{
-    text-transform: uppercase;
-    font-size: 11px;
-    font-weight: bold;
-   
+.img-content__author {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
 }
 
 .img-content__author span {
-    font-weight: lighter;
+  font-weight: lighter;
 }
 .vs {
-    text-align: center;
-    margin: 20px 0;
-    overflow: hidden;
+  text-align: center;
+  margin: 20px 0;
+  overflow: hidden;
 }
 .vs-rule {
-    display: inline-block;
-    color: #f0f0f0;
-    background-color: #000;
-    font-size: 12px;
-    padding: 5px;
-    border-radius: 50%;
-    position: relative;
-    z-index: 4;
+  display: inline-block;
+  color: #f0f0f0;
+  background-color: #000;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 4;
 }
 
-.vs-rule:before{
-    content: "";
-    color: #000;
-    display: inline-block;
-    border-bottom: 3px double #000;
-    position: absolute;
-    top: 50%;
-    left: 100%;
-    width: 500px;
+.vs-rule:before {
+  content: "";
+  display: inline-block;
+  border-bottom: 3px double #bbb;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 500px;
 }
 
-.vs-rule:after{
-    content: "";
-    color: #000;
-    display: inline-block;
-    border-bottom: 3px double #000;
-    position: absolute;
-    top: 50%;
-    left: 100%;
-    width: 500px;
+.vs-rule:after {
+  content: "";
+  display: inline-block;
+  border-bottom: 3px double #bbb;
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  width: 500px;
 }
