@@ -15,3 +15,39 @@ body {
   line-height: 1.4;
   box-sizing: border-box;
 } */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-red {
+  background-color: #f61602;
+}
+
+.top-logo {
+  fill: white;
+  height: 20px;
+}
+
+.hide-border {
+  border: none;
+}
+
+.ads-link {
+  display: inline-block;
+  background-color: #ffe400;
+  padding: 2px 5px;
+  font-size: 11px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  color: #000;
+  font-weight: bold;
+}
+
+.user-link {
+  /* color: rgba(255, 255, 255, 0.5); */
+  color: #d9d9d9;
+  font-size: 18px;
+  display: inline-block;
+  margin-right: 9px;
+}
