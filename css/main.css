@@ -392,6 +392,10 @@ span.img-content__span {
 }
 
 /* ARTICLE CATEGORY SECTION */
+.article-cat-section {
+    border-top: 1px solid #ddd;
+}
+
 .article-cat-section .article-title:hover {
     border-bottom: none;
 }
@@ -401,7 +405,7 @@ span.img-content__span {
     height: auto;
 }
 
-.article-cat-section .img-content {
+.article-cat-section .img-content:not(:last-child) {
     border-bottom: 1px solid #ccc
 }
 
