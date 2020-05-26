@@ -1,5 +1,5 @@
 :root {
-  --color-red: #f61602;
+  --red: #f61602;
 }
 
 body {
@@ -18,7 +18,7 @@ a:hover {
 
 /* UTILITY CLASS */
 .bg-red {
-  background-color: var(--color-red);
+  background-color: var(--red);
 }
 
 .hide-border {
@@ -28,12 +28,43 @@ a:hover {
 .bg-white {
   background-color: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  margin-bottom: 18px;
+  
+}
+
+.small-bottom-margin {
+    margin-bottom: 18px;
 }
 
 .red-rule {
-  border-top: 2px solid var(--color-red);
+  border-top: 2px solid var(--red);
 }
+
+.gray-rule {
+    border-top: 1px solid #ddd;
+}
+
+.text-red {
+    color: var(--red);
+}
+
+.underline-link {
+    color: #000;
+    border-bottom: 1px solid transparent;
+}
+.underline-link:hover {
+    border-bottom: 1px solid var(--red);
+    color: #000;
+}
+
+.color__link {
+    color: #000;
+    text-decoration: none;
+  }
+
+.color__link:hover {
+    color: #f92859;
+  }
+
 
 .blue-rule {
   border-top: 2px solid #1c87fb;
@@ -102,7 +133,7 @@ a:hover {
   display: inline-block;
   padding: 3px 10px;
   background-color: rgba(255, 255, 255, 0.9);
-  color: var(--color-red);
+  color: var(--red);
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
@@ -115,12 +146,8 @@ a:hover {
   line-height: 1.2;
   padding: 5px 0;
   display: inline-block;
-  border-bottom: 1px solid transparent;
 }
 
-.article-title:hover {
-  border-bottom: 1px solid var(--color-red);
-}
 
 .article-text {
   font-size: 13px;
@@ -226,7 +253,7 @@ a:hover {
 
 .more-stories .img-content__link:hover {
   color: #000;
-  border-bottom: 1px solid var(--color-red);
+  border-bottom: 1px solid var(--red);
 }
 
 .img-content__heading {
@@ -314,7 +341,7 @@ span.img-content__span {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
-    background-color: var(--color-red);
+    background-color: var(--red);
     color: #fff;
 }
 
@@ -353,13 +380,29 @@ span.img-content__span {
     margin-top: 10px;
     text-transform: uppercase;
     font-weight: bold;
-    color: var(--color-red);
+    color: var(--red);
     font-size: 14px;
 }
 
 .redbg {
-    background-color: var(--color-red);
+    background-color: var(--red);
     color: #fff;
     padding: 5px;
     margin-right: 5px;
 }
+
+/* ARTICLE CATEGORY SECTION */
+.article-cat-section .article-title:hover {
+    border-bottom: none;
+}
+
+.article-cat-section .img-content__img {
+    
+    height: auto;
+}
+
+.article-cat-section .img-content {
+    border-bottom: 1px solid #ccc
+}
+
+
