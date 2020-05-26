@@ -11,6 +11,11 @@ a {
   color: #000;
 }
 
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
 /* UTILITY CLASS */
 .bg-red {
   background-color: var(--color-red);
@@ -99,6 +104,7 @@ a {
   background-color: rgba(255, 255, 255, 0.9);
   color: var(--color-red);
   font-size: 14px;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -218,6 +224,11 @@ a {
   display: block;
 }
 
+.more-stories .img-content__link:hover {
+  color: #000;
+  border-bottom: 1px solid var(--color-red);
+}
+
 .img-content__heading {
   line-height: 1.5;
 }
@@ -230,4 +241,125 @@ span.img-content__span {
   font-weight: 300;
   padding-top: 5px;
   display: block;
+}
+
+/* HEROES OF THE PANDEMIC  */
+.heroes .img-content__link {
+  color: rgba(3, 3, 3, 0.4);
+  padding-top: 12px;
+  display: inline-block;
+}
+
+.heroes .article-title {
+    font-size: 15px;
+}
+
+.heroes .article-title:hover {
+    border-bottom: none;
+  }
+
+
+.heroes .img-content__link:hover {
+  border-bottom: none;
+  color:rgba(3, 3, 3, 0.4);
+}
+
+.heroes .article-tag {
+  background-color: #c2d4d7;
+  color: #000;
+  font-weight: bold;
+}
+
+/* FREE SIGN UP FORM */
+
+.signup {
+    max-width: 300px;
+    background-color: #ebebeb;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+}
+
+.signup-text {
+    margin-bottom: 10px;
+}
+
+.signup-nlogo {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    margin-right: 8px;
+}
+
+.signup-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-input {
+    border: 1px solid #d6d2d2;
+    padding: 5px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.signup-btn {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: var(--color-red);
+    color: #fff;
+}
+
+.angle-icon{
+    font-size: 22px;
+    margin-left: 5px;  
+    font-weight: lighter;
+}
+
+/* IN THE MAGAZINE */
+.magazine-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mag-title {
+    font-size: 20px;
+    padding-top: 7px;
+}
+
+.mag-title .angle-icon {
+    font-size: 30px;
+}
+
+.more-feature {
+    text-align: center;
+    padding: 2px 0 4px 0;
+}
+
+.more-feature:hover {
+    background-color: #ddd;
+}
+
+.mag-tag {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--color-red);
+    font-size: 14px;
+}
+
+.redbg {
+    background-color: var(--color-red);
+    color: #fff;
+    padding: 5px;
+    margin-right: 5px;
 }
