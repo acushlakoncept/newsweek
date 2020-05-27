@@ -410,3 +410,40 @@ span.img-content__span {
 }
 
 
+/* SUBSCRIBE BOX */
+.subcribe-box {
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 25px;
+}
+
+.subcribe-box__img {
+    position: relative;
+}
+
+.subscribe-box__img1 {
+}
+
+.subscribe-box__img2 {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+}
+
+.subcribe-box .article-title {
+    margin-top: -20px;
+    position: relative;
+    z-index: 10;
+}
+
+.subcribe-box__text {
+    font-weight: lighter;
+}
+
+.subcribe-box .signup-btn {
+    display: inline-block;
+    width: 130px;
+    align-self: center;
+}
