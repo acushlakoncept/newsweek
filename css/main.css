@@ -488,7 +488,27 @@ span.img-content__span {
 }
 
 .footer-social__icon {
-    font-size: 25px;
+    font-size: 20px;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+.fa-twitter:hover {
+    color: #1da1f2;
+}
+
+.fa-instagram:hover {
+    color: #405de6;
+}
+
+.fa-tumblr:hover {
+    color: #35465c;
+}
+
+.fa-linkedin:hover {
+    color: #0077b5;
 }
 
 .footer__copyright small,
