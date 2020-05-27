@@ -447,3 +447,12 @@ span.img-content__span {
     width: 130px;
     align-self: center;
 }
+
+/* NEWSLETTER BOX */
+.newsletter-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #eee;
+    padding: 20px;
+}
