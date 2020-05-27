@@ -520,11 +520,26 @@ span.img-content__span {
   margin-bottom: 10px;
 }
 
-
 /* ORDERS */
 
 @media (min-width: 768px) {
-    .top-story {
-        order: 2
-    }
+  .small-bottom-margin {
+    margin-bottom: 0;
+  }
+
+  .top-story {
+    order: 2;
+  }
+
+  .featured {
+    order: 1;
+  }
+
+  .pandemic-heroes {
+    order: 4;
+  }
+
+  .culture {
+    order: 3;
+  }
 }
