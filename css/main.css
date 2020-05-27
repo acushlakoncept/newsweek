@@ -456,3 +456,49 @@ span.img-content__span {
     border: 1px solid #eee;
     padding: 20px;
 }
+
+/* FOOTER */
+.footer {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.footer-logo svg {
+    fill: var(--red);
+    height: 30px;
+}
+
+.footer__copyright small {
+    text-transform: uppercase;
+    display: block;
+    padding-top: 10px;
+}
+
+.footer-ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -38px;
+    
+}
+.footer__list {
+    list-style: none;
+    margin-right: 15px;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.footer-social__icon {
+    font-size: 25px;
+}
+
+.footer__copyright small,
+.footer__list,
+.footer-links__item,
+.footer-social__icon{
+    color: #666;
+}
+
+.footer__top {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
