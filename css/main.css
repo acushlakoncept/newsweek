@@ -12,8 +12,8 @@ a {
 }
 
 a:hover {
-    color: #000;
-    text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
 
 /* UTILITY CLASS */
@@ -28,11 +28,10 @@ a:hover {
 .bg-white {
   background-color: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  
 }
 
 .small-bottom-margin {
-    margin-bottom: 18px;
+  margin-bottom: 18px;
 }
 
 .red-rule {
@@ -40,31 +39,30 @@ a:hover {
 }
 
 .gray-rule {
-    border-top: 1px solid #ddd;
+  border-top: 1px solid #ddd;
 }
 
 .text-red {
-    color: var(--red);
+  color: var(--red);
 }
 
 .underline-link {
-    color: #000;
-    border-bottom: 1px solid transparent;
+  color: #000;
+  border-bottom: 1px solid transparent;
 }
 .underline-link:hover {
-    border-bottom: 1px solid var(--red);
-    color: #000;
+  border-bottom: 1px solid var(--red);
+  color: #000;
 }
 
 .color__link {
-    color: #000;
-    text-decoration: none;
-  }
+  color: #000;
+  text-decoration: none;
+}
 
 .color__link:hover {
-    color: #f92859;
-  }
-
+  color: #f92859;
+}
 
 .blue-rule {
   border-top: 2px solid #1c87fb;
@@ -99,6 +97,10 @@ a:hover {
   font-size: 18px;
   display: inline-block;
   margin-right: 9px;
+}
+
+.user-link:hover {
+  color: #d9d9d9;
 }
 
 /* TOP MENU STYLES  ENDS */
@@ -147,7 +149,6 @@ a:hover {
   padding: 5px 0;
   display: inline-block;
 }
-
 
 .article-text {
   font-size: 13px;
@@ -278,17 +279,16 @@ span.img-content__span {
 }
 
 .heroes .article-title {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .heroes .article-title:hover {
-    border-bottom: none;
-  }
-
+  border-bottom: none;
+}
 
 .heroes .img-content__link:hover {
   border-bottom: none;
-  color:rgba(3, 3, 3, 0.4);
+  color: rgba(3, 3, 3, 0.4);
 }
 
 .heroes .article-tag {
@@ -300,225 +300,231 @@ span.img-content__span {
 /* FREE SIGN UP FORM */
 
 .signup {
-    max-width: 300px;
-    background-color: #ebebeb;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    padding: 30px 20px;
+  max-width: 300px;
+  background-color: #ebebeb;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
 }
 
 .signup-text {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .signup-nlogo {
-    width: 30px;
-    height: 30px;
-    background-color: red;
-    margin-right: 8px;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  margin-right: 8px;
 }
 
 .signup-title {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .signup-form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .signup-input {
-    border: 1px solid #d6d2d2;
-    padding: 5px;
-    font-weight: lighter;
-    margin-bottom: 10px;
+  border: 1px solid #d6d2d2;
+  padding: 5px;
+  font-weight: lighter;
+  margin-bottom: 10px;
 }
 
 .signup-btn {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: bold;
-    background-color: var(--red);
-    color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: var(--red);
+  color: #fff;
 }
 
-.angle-icon{
-    font-size: 22px;
-    margin-left: 5px;  
-    font-weight: lighter;
+.angle-icon {
+  font-size: 22px;
+  margin-left: 5px;
+  font-weight: lighter;
 }
 
 /* IN THE MAGAZINE */
 .magazine-heading {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .mag-title {
-    font-size: 20px;
-    padding-top: 7px;
+  font-size: 20px;
+  padding-top: 7px;
 }
 
 .mag-title .angle-icon {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .more-feature {
-    text-align: center;
-    padding: 2px 0 4px 0;
+  text-align: center;
+  padding: 2px 0 4px 0;
 }
 
 .more-feature:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 .mag-tag {
-    margin-top: 10px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: var(--red);
-    font-size: 14px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--red);
+  font-size: 14px;
 }
 
 .redbg {
-    background-color: var(--red);
-    color: #fff;
-    padding: 5px;
-    margin-right: 5px;
+  background-color: var(--red);
+  color: #fff;
+  padding: 5px;
+  margin-right: 5px;
 }
 
 /* ARTICLE CATEGORY SECTION */
 .article-cat-section {
-    border-top: 1px solid #ddd;
+  border-top: 1px solid #ddd;
 }
 
 .article-cat-section .article-title:hover {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .article-cat-section .img-content__img {
-    
-    height: auto;
+  height: auto;
 }
 
 .article-cat-section .img-content:not(:last-child) {
-    border-bottom: 1px solid #ccc
+  border-bottom: 1px solid #ccc;
 }
-
 
 /* SUBSCRIBE BOX */
 .subcribe-box {
-    background-color: #eee;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 25px;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 25px;
 }
 
 .subcribe-box__img {
-    position: relative;
+  position: relative;
 }
 
 .subscribe-box__img1 {
 }
 
 .subscribe-box__img2 {
-    position: absolute;
-    left: 50%;
-    top: 20px;
+  position: absolute;
+  left: 50%;
+  top: 20px;
 }
 
 .subcribe-box .article-title {
-    margin-top: -20px;
-    position: relative;
-    z-index: 10;
+  margin-top: -20px;
+  position: relative;
+  z-index: 10;
 }
 
 .subcribe-box__text {
-    font-weight: lighter;
+  font-weight: lighter;
 }
 
 .subcribe-box .signup-btn {
-    display: inline-block;
-    width: 130px;
-    align-self: center;
+  display: inline-block;
+  width: 130px;
+  align-self: center;
 }
 
 /* NEWSLETTER BOX */
-.newsletter-box{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border: 1px solid #eee;
-    padding: 20px;
+.newsletter-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid #eee;
+  padding: 20px;
 }
 
 /* FOOTER */
 .footer {
-    background-color: #fff;
-    padding: 20px;
+  background-color: #fff;
+  padding: 20px;
 }
 
 .footer-logo svg {
-    fill: var(--red);
-    height: 30px;
+  fill: var(--red);
+  height: 30px;
 }
 
 .footer__copyright small {
-    text-transform: uppercase;
-    display: block;
-    padding-top: 10px;
+  text-transform: uppercase;
+  display: block;
+  padding-top: 10px;
 }
 
 .footer-ul {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -38px;
-    
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -38px;
 }
 .footer__list {
-    list-style: none;
-    margin-right: 15px;
-    font-size: 14px;
-    line-height: 1.8;
+  list-style: none;
+  margin-right: 15px;
+  font-size: 14px;
+  line-height: 1.8;
 }
 
 .footer-social__icon {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .fa-facebook-square:hover {
-    color: #3b5998;
+  color: #3b5998;
 }
 
 .fa-twitter:hover {
-    color: #1da1f2;
+  color: #1da1f2;
 }
 
 .fa-instagram:hover {
-    color: #405de6;
+  color: #405de6;
 }
 
 .fa-tumblr:hover {
-    color: #35465c;
+  color: #35465c;
 }
 
 .fa-linkedin:hover {
-    color: #0077b5;
+  color: #0077b5;
 }
 
 .footer__copyright small,
 .footer__list,
 .footer-links__item,
-.footer-social__icon{
-    color: #666;
+.footer-social__icon {
+  color: #666;
 }
 
 .footer__top {
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+
+/* ORDERS */
+
+@media (min-width: 768px) {
+    .top-story {
+        order: 2
+    }
 }
