@@ -92,6 +92,10 @@ a:hover {
   font-weight: bold;
 }
 
+.weather {
+    display: none;
+}
+
 .user-link {
   color: #d9d9d9;
   font-size: 18px;
@@ -101,6 +105,14 @@ a:hover {
 
 .user-link:hover {
   color: #d9d9d9;
+}
+
+.login-text {
+    display: none;
+}
+
+.top-menu {
+    display: none;
 }
 
 /* TOP MENU STYLES  ENDS */
@@ -235,10 +247,10 @@ a:hover {
 .opinion {
   padding-bottom: 30px;
 }
-.opinion .img-content:not(:last-child) {
+.opinion .img-content {
   margin-bottom: 10px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #ddd;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
 }
 
 /* MORE STORIES */
@@ -421,9 +433,6 @@ span.img-content__span {
   position: relative;
 }
 
-.subscribe-box__img1 {
-}
-
 .subscribe-box__img2 {
   position: absolute;
   left: 50%;
@@ -523,7 +532,21 @@ span.img-content__span {
 /* ORDERS */
 
 @media (min-width: 768px) {
-  .small-bottom-margin {
+
+    /* UTILITY CLASS */
+    .small-bottom-margin {
+        margin-bottom: 0;
+    }
+        
+        .bg-white {
+            box-shadow: none;
+        };
+
+        .extra-margin-down {
+            margin-bottom: 20px;
+        }
+      
+  /* .small-bottom-margin {
     margin-bottom: 0;
   }
 
@@ -541,5 +564,108 @@ span.img-content__span {
 
   .culture {
     order: 3;
+  } */
+
+
+  /* TOP MENU STYLES */
+
+.top-logo {
+    height: 70px;
   }
+  
+  .ads-link {
+    display: inline-block;
+    background-color: #ffe400;
+    padding: 2px 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .fa-user{
+    display: none;
+  }
+
+  .login-text {
+      display: inline-block;
+      text-transform: uppercase;
+  }
+
+  .weather {
+    display: inline-block;
+    color: #fff;
 }
+
+.top-menu {
+    display: block;
+    background-color: var(--red);
+    margin-bottom: -15px;
+}
+
+.top-menu .color__link:hover {
+    color: var(--red);
+  }
+
+.top-menu__ul {
+    clip-path: polygon(0 0, 90% 0, 93% 18%, 100% 18%, 100% 100%, 0 100%);
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    line-height: 1.7;
+    padding: 15px 0;
+    font-size: 18px;
+}
+
+.top-menu__list, .menu-search {
+    list-style: none;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.top-menu .color__link {
+    
+    font-weight: bold;
+    letter-spacing: -0.5px;
+}
+
+.top-menu__list:not(:nth-last-child(2)){
+    border-right: 1px solid #ddd;
+    
+}
+  .menu-search input{
+    border: none;
+    width: 85px;
+    font-weight: 100;
+  }
+  /* TOP MENU STYLES  ENDS */
+
+  /* pandemic */
+  .heroes .article-title {
+    font-size: 14px;
+}
+.heroes .article-tag {
+    font-size: 11px;
+}
+
+.sticky {
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+/* Magazine section */
+.top-rule{
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+    margin-top: 10px;
+}
+
+.article-cat-section {
+    border-top: none;
+}
+
+}
+
+
