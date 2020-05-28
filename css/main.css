@@ -3,8 +3,9 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #ebebeb;
+  font-weight: 300;
 }
 
 a {
@@ -670,5 +671,26 @@ span.img-content__span {
   .gray-bg {
     background-color: #eee;
     padding: 15px 0 35px 15px;
+  }
+
+  .subscribe-box__text {
+    font-weight: 100;
+  }
+
+  .footer__copyright small {
+    display: inline-block;
+  }
+
+  .footer__top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-ul {
+    align-items: flex-end;
+  }
+
+  hr.top-rule {
+    padding: 0;
   }
 }
