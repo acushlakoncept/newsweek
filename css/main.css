@@ -118,12 +118,9 @@ a:hover {
   display: none;
 }
 
-
-
 /* TOP MENU STYLES  ENDS */
 
 /* ARTICLE CLASS */
-
 .article {
   width: 100%;
   overflow: hidden;
@@ -587,9 +584,6 @@ span.img-content__span {
     font-weight: 700;
   }
 
-
-
-
   /* pandemic */
   .heroes .article-title {
     font-size: 14px;
@@ -708,7 +702,6 @@ span.img-content__span {
   }
 
   .top-menu__ul {
-    /* clip-path: polygon(0 0, 90% 0, 93% 18%, 100% 18%, 100% 100%, 0 100%); */
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -723,8 +716,6 @@ span.img-content__span {
     text-align: center;
     flex-grow: 1;
   }
-
-
 
   .top-menu__list:not(:nth-last-child(2)) {
     border-right: 1px solid #ddd;
@@ -741,7 +732,9 @@ span.img-content__span {
     width: 120px;
     height: 25px;
     padding: 10px;
-    background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) no-repeat;
+    background:
+      url(https://g.newsweek.com/www/images/icon-search-glass.svg)
+      no-repeat;
     background-size: 20px;
     background-position: right center;
   }
@@ -760,7 +753,6 @@ span.img-content__span {
     background-color: var(--red);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
   }
-
 
   /* TOP MENU STYLES  ENDS */
 }
