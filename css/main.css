@@ -60,6 +60,7 @@ a:hover {
   color: #000;
   border-bottom: 1px solid transparent;
 }
+
 .underline-link:hover {
   border-bottom: 1px solid var(--red);
   color: #000;
@@ -101,7 +102,6 @@ a:hover {
   color: #000;
   font-weight: bold;
 }
-
 
 .user-link {
   color: #d9d9d9;
@@ -169,7 +169,7 @@ a:hover {
 
 .article-text {
   font-size: 13px;
-  color: #555555;
+  color: #555;
 }
 
 /* THE DEBATE  */
@@ -212,11 +212,13 @@ a:hover {
 .img-content__author span {
   font-weight: lighter;
 }
+
 .vs {
   text-align: center;
   margin: 20px 0;
   overflow: hidden;
 }
+
 .vs-rule {
   display: inline-block;
   color: #f0f0f0;
@@ -228,7 +230,7 @@ a:hover {
   z-index: 4;
 }
 
-.vs-rule:before {
+.vs-rule::before {
   content: "";
   display: inline-block;
   border-bottom: 3px double #bbb;
@@ -238,7 +240,7 @@ a:hover {
   width: 500px;
 }
 
-.vs-rule:after {
+.vs-rule::after {
   content: "";
   display: inline-block;
   border-bottom: 3px double #bbb;
@@ -252,6 +254,7 @@ a:hover {
 .opinion {
   padding-bottom: 30px;
 }
+
 .opinion .img-content {
   margin-bottom: 10px;
   padding-top: 10px;
@@ -267,6 +270,12 @@ a:hover {
 
 .more-stories .img-content {
   display: block;
+}
+
+.heroes .img-content__link {
+  color: rgba(3, 3, 3, 0.4);
+  padding-top: 12px;
+  display: inline-block;
 }
 
 .more-stories .img-content__link:hover {
@@ -289,14 +298,15 @@ span.img-content__span {
 }
 
 /* HEROES OF THE PANDEMIC  */
-.heroes .img-content__link {
-  color: rgba(3, 3, 3, 0.4);
-  padding-top: 12px;
-  display: inline-block;
-}
 
 .heroes .article-title {
   font-size: 15px;
+}
+
+.subcribe-box .article-title {
+  margin-top: -20px;
+  position: relative;
+  z-index: 10;
 }
 
 .heroes .article-title:hover {
@@ -445,12 +455,6 @@ span.img-content__span {
   top: 20px;
 }
 
-.subcribe-box .article-title {
-  margin-top: -20px;
-  position: relative;
-  z-index: 10;
-}
-
 .subcribe-box__text {
   font-weight: lighter;
 }
@@ -492,6 +496,7 @@ span.img-content__span {
   flex-wrap: wrap;
   margin-left: -38px;
 }
+
 .footer__list {
   list-style: none;
   margin-right: 15px;
@@ -548,8 +553,6 @@ span.img-content__span {
   order: 3;
 }
 
-
-
 @media (min-width: 768px) {
   /* UTILITY CLASS */
   .small-bottom-margin {
@@ -564,22 +567,19 @@ span.img-content__span {
     margin-bottom: 20px;
   }
 
-
   .c-order-1 {
     order: 1;
   }
-  
+
   .c-order-2 {
     order: 2;
   }
-  
+
   .c-order-3 {
     order: 3;
   }
 
   /* TOP MENU STYLES */
-
-
 
   .login-text {
     display: inline-block;
@@ -588,19 +588,22 @@ span.img-content__span {
   }
 
 
- 
+
 
   /* pandemic */
   .heroes .article-title {
     font-size: 14px;
   }
+
   .heroes .article-tag {
     font-size: 11px;
   }
+
   .sticky-rel {
     position: relative;
     right: 0;
   }
+
   .sticky {
     position: -webkit-sticky;
     position: sticky;
@@ -617,7 +620,6 @@ span.img-content__span {
   .article-cat-section {
     border-top: none;
   }
-
 
   .gray-bg {
     background-color: #eee;
@@ -652,12 +654,12 @@ span.img-content__span {
   .newsletter-img {
     background-image: url(../imgs/starting5-homepage.png);
     background-repeat: no-repeat;
-    background-position:  bottom;
+    background-position: bottom;
     background-size: cover;
     height: 100%;
   }
 
-  .footer__list:not(:last-child){
+  .footer__list:not(:last-child) {
     border-right: 1px solid #ddd;
     padding-right: 10px;
     margin-right: 10px;
@@ -667,7 +669,6 @@ span.img-content__span {
     border-right: none;
   }
 }
-
 
 @media (min-width: 992px) {
   .weather {
@@ -690,12 +691,16 @@ span.img-content__span {
     font-weight: bold;
   }
 
-
   .top-menu {
     display: block;
     background-color: var(--red);
     margin-bottom: -15px;
     position: relative;
+  }
+
+  .top-menu .color__link {
+    font-weight: bold;
+    letter-spacing: -0.5px;
   }
 
   .top-menu .color__link:hover {
@@ -719,10 +724,7 @@ span.img-content__span {
     flex-grow: 1;
   }
 
-  .top-menu .color__link {
-    font-weight: bold;
-    letter-spacing: -0.5px;
-  }
+
 
   .top-menu__list:not(:nth-last-child(2)) {
     border-right: 1px solid #ddd;
@@ -742,25 +744,23 @@ span.img-content__span {
     background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) no-repeat;
     background-size: 20px;
     background-position: right center;
-}
+  }
 
+  .menu-search input:focus {
+    outline: none;
+    width: 100%;
+  }
 
-.menu-search input:focus {
-  outline: none;
-  width: 100%;
-}
-
-.bg-hack {
-  position: absolute;
-  top: 0;
-  right: -15px;
-  width: 60px;
-  height: 15px;
-  background-color: var(--red);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
-}
+  .bg-hack {
+    position: absolute;
+    top: 0;
+    right: -15px;
+    width: 60px;
+    height: 15px;
+    background-color: var(--red);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+  }
 
 
   /* TOP MENU STYLES  ENDS */
-
 }
