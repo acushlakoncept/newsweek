@@ -3,11 +3,12 @@
 In this project, Twitter’s Bootstrap framework was used to clone the [NewsWeek.com](https://www.newsweek.com/) website.
 
 > In the course of working in this project, the following concepts were mastered
-Bootstrap v4.0 Grid Layout
-Flex order class
-Some CSS Advanced Selectors
-Bootstrap classes that change base on screen sizes. (`col-sm`, `col-md`, `col-lg`, and `col-xl`)
-Got a deeper look into the bootstrap v4 documentation.
+
+- Bootstrap v4.0 Grid Layout
+- Flex order class
+- Some CSS Advanced Selectors
+- Bootstrap classes that change base on screen sizes. (`col-sm`, `col-md`, `col-lg`, and `col-xl`)
+- Got a deeper look into the bootstrap v4 documentation.
 
 > I learned a lot in the course of building this project.
 
@@ -26,7 +27,7 @@ Got a deeper look into the bootstrap v4 documentation.
 
 ## Live Demo
 
-[Live Demo Link](#)
+[Live Demo Link](https://raw.githack.com/acushlakoncept/newsweek/feature-desktop/index.html)
 
 ## Getting Started
 
