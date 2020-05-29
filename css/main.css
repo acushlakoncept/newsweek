@@ -8,6 +8,11 @@ body {
   font-weight: 300;
 }
 
+.container-fluid,
+.container {
+  max-width: 1300px;
+}
+
 a {
   color: #000;
 }
@@ -33,6 +38,10 @@ a:hover {
 
 .small-bottom-margin {
   margin-bottom: 18px;
+}
+
+.small-top-margin {
+  margin-top: 10px;
 }
 
 .red-rule {
@@ -436,7 +445,7 @@ span.img-content__span {
 
 .subscribe-box__img2 {
   position: absolute;
-  left: 50%;
+  left: 70px;
   top: 20px;
 }
 
@@ -568,6 +577,104 @@ span.img-content__span {
 
   /* TOP MENU STYLES */
 
+ 
+
+  
+
+  .fa-user {
+    display: none;
+  }
+
+  .login-text {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .weather {
+    display: none;
+  }
+
+ 
+
+  /* pandemic */
+  .heroes .article-title {
+    font-size: 14px;
+  }
+  .heroes .article-tag {
+    font-size: 11px;
+  }
+  .sticky-rel {
+    position: relative;
+    right: 0;
+  }
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+
+  /* Magazine section */
+  .top-rule {
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+    margin-top: 10px;
+  }
+
+  .article-cat-section {
+    border-top: none;
+  }
+
+  .subribe-box__content {
+    /* padding-left: 120px; */
+  }
+
+  .gray-bg {
+    background-color: #eee;
+    padding: 15px 0 35px 15px;
+  }
+
+  .subscribe-box__text {
+    font-weight: 100;
+  }
+
+  .footer__copyright small {
+    display: inline-block;
+  }
+
+  .footer__top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-ul {
+    align-items: flex-end;
+  }
+
+  hr.top-rule {
+    padding: 0;
+  }
+
+  .newsletter-box {
+    height: 88%;
+  }
+
+  .newsletter-img {
+    background-image: url(../imgs/starting5-homepage.png);
+    background-repeat: no-repeat;
+    background-position:  bottom;
+    background-size: cover;
+    height: 100%;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .weather {
+    display: inline-block;
+    color: #fff;
+  }
+
   .top-logo {
     height: 70px;
   }
@@ -583,19 +690,6 @@ span.img-content__span {
     font-weight: bold;
   }
 
-  .fa-user {
-    display: none;
-  }
-
-  .login-text {
-    display: inline-block;
-    text-transform: uppercase;
-  }
-
-  .weather {
-    display: inline-block;
-    color: #fff;
-  }
 
   .top-menu {
     display: block;
@@ -639,58 +733,4 @@ span.img-content__span {
   }
   /* TOP MENU STYLES  ENDS */
 
-  /* pandemic */
-  .heroes .article-title {
-    font-size: 14px;
-  }
-  .heroes .article-tag {
-    font-size: 11px;
-  }
-
-  .sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-  }
-
-  /* Magazine section */
-  .top-rule {
-    border-top: 1px solid #ddd;
-    padding: 20px 0;
-    margin-top: 10px;
-  }
-
-  .article-cat-section {
-    border-top: none;
-  }
-
-  .subribe-box__content {
-    padding-left: 120px;
-  }
-
-  .gray-bg {
-    background-color: #eee;
-    padding: 15px 0 35px 15px;
-  }
-
-  .subscribe-box__text {
-    font-weight: 100;
-  }
-
-  .footer__copyright small {
-    display: inline-block;
-  }
-
-  .footer__top {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .footer-ul {
-    align-items: flex-end;
-  }
-
-  hr.top-rule {
-    padding: 0;
-  }
 }

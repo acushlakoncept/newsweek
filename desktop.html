@@ -54,7 +54,7 @@
     <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button> -->
-    <nav class="navbar navbar-dark bg-red container">
+    <nav class="navbar navbar-dark bg-red container-fluid">
       <div class="weather">
         <p class="weather-text">
           5 degrees celcius <br /><span class="weather-date"
@@ -102,7 +102,7 @@
         </button>
       </div>
     </nav>
-    <div class="container bg-white">
+    <div class="container-fluid bg-white">
       <div class="top-menu">
         <ul class="top-menu__ul">
           <li class="top-menu__list">
@@ -145,9 +145,9 @@
       </div>
     </div>
 
-    <div class="container bg-white">
+    <div class="container-fluid bg-white">
       <div class="row">
-        <div class="col-lg-4 sticky">
+        <div class="col-lg-4 col-md-5">
           <!-- BEGINNING OF FEATURED STORIES -->
           <div class="bg-white small-bottom-margin">
             <div class="article">
@@ -272,7 +272,7 @@
           </div>
           <!-- END OF FEATURED STORIES -->
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-7">
           <!-- BEGINNING OF TOP STORY -->
           <div class="bg-white small-bottom-margin">
             <div class="article">
@@ -898,7 +898,7 @@
       </div>
 
       <div class="row top-rule">
-        <div class="col-md-3 magazine">
+        <div class="col-md-6 col-lg-3 magazine">
           <div class="article-img">
             <img src="imgs/trump.webp" alt="trump" />
             <span class="article-tag">
@@ -917,7 +917,7 @@
           </p>
         </div>
 
-        <div class="col-md-3 magazine">
+        <div class="col-md-6 col-lg-3 magazine">
           <div class="article-img">
             <img src="imgs/wuhan-institute-virology.webp" alt="trump" />
             <span class="article-tag">
@@ -937,7 +937,7 @@
           </p>
         </div>
 
-        <div class="col-md-3 magazine">
+        <div class="col-md-6 col-lg-3 magazine">
           <div class="article-img">
             <img src="imgs/donald-trump.webp" alt="trump" />
             <span class="article-tag">
@@ -956,7 +956,7 @@
           </p>
         </div>
 
-        <div class="col-md-3 magazine">
+        <div class="col-md-6 col-lg-3 magazine">
           <div class="article-img">
             <img
               src="imgs/atlantic-city-economy-hit-hard-closures-during-coronavirus-pandemic.webp"
@@ -978,7 +978,7 @@
           </p>
         </div>
 
-        <div class="col-md-3 magazine">
+        <div class="col-md-6 col-lg-3 magazine">
           <div class="article-img">
             <img
               src="imgs/boris-johnson-islamophoia-allegations.webp"
@@ -1002,7 +1002,7 @@
           </p>
         </div>
 
-        <div class="col-md-3 magazine">
+        <div class="col-md-6 col-lg-3 magazine">
           <div class="article-img">
             <img src="imgs/new-york-times.webp" alt="trump" />
             <span class="article-tag">
@@ -1022,7 +1022,7 @@
           </p>
         </div>
 
-        <div class="col-md-3 magazine">
+        <div class="col-md-6 col-lg-3 magazine">
           <div class="article-img">
             <img src="imgs/us-health-virus-protest.webp" alt="trump" />
             <span class="article-tag">
@@ -1041,7 +1041,7 @@
           </p>
         </div>
 
-        <div class="col-md-3 magazine">
+        <div class="col-md-6 col-lg-3 magazine">
           <div class="article-img">
             <img
               src="imgs//utah-jazz-karl-malone.webp"
@@ -1511,11 +1511,11 @@
       <!-- END OF Sports CATEGORY SECTION -->
 
       <div class="row">
-        <div class="col-md-8 magazine">
-          <h4 class="signup-title mag-title text-red">Subscribe</h4>
+        <div class="col-lg-7 magazine">
+          <h4 class="signup-title mag-title text-red small-top-margin">Subscribe</h4>
 
           <div class="row gray-bg">
-            <div class="col-md-4">
+            <div class="col-md-4 col-lg-6">
               <div class="subcribe-box__img">
                 <img
                   src="imgs/may-22-2020-cover.jpg"
@@ -1530,7 +1530,7 @@
               </div>
             </div>
 
-            <div class="col-md-8 subribe-box__content">
+            <div class="col-md-8 col-lg-6 subribe-box__content">
               <h3 class="article-title">
                 In-depth Stories You Don't See Elsewhere About Topics You Want
                 to Read!
@@ -1550,29 +1550,39 @@
 
         <!-- END OF Subscribe SECTION -->
 
-        <div class="col-md-4 magazine">
-          <h4 class="signup-title mag-title text-red">NewsLetter</h4>
+        <div class="col-lg-5 magazine">
+          <h4 class="signup-title mag-title text-red small-top-margin">NewsLetter</h4>
+
 
           <div class="newsletter-box">
-            <h3 class="article-title">
-              The Starting 5
-            </h3>
 
-            <p class="subscribe-box__text">
-              See why nearly a quarter of a million subscribers begin their day
-              with the Starting 5.
-            </p>
+            <div class="row">
+              <div class="col-md-3 col-lg-6 newsletter-img"></div>
+              <div class="col-md-9 col-lg-6">
+                <h3 class="article-title">
+                  The Starting 5
+                </h3>
+    
+                <p class="subscribe-box__text">
+                  See why nearly a quarter of a million subscribers begin their day
+                  with the Starting 5.
+                </p>
+    
+                <form action="#" class="signup-form">
+                  <input
+                    type="email"
+                    class="signup-input"
+                    placeholder="Email address"
+                  />
+                  <button type="submit" class="signup-btn rounded-lg">
+                    Free Sign up <span class="angle-icon">&#8250;</span>
+                  </button>
+                </form>
+              </div>
+            </div>
 
-            <form action="#" class="signup-form">
-              <input
-                type="email"
-                class="signup-input"
-                placeholder="Email address"
-              />
-              <button type="submit" class="signup-btn rounded-lg">
-                Free Sign up <span class="angle-icon">&#8250;</span>
-              </button>
-            </form>
+           
+
           </div>
         </div>
         <!-- END OF Newsletter SECTION -->
@@ -1580,9 +1590,9 @@
 
       <!-- end of subscribe and newsletter section -->
     </div>
-    <!-- end of container div-->
+    <!-- end of container-fluid div-->
 
-    <footer class="footer container">
+    <footer class="footer container-fluid">
       <hr class="top-rule" />
       <div class="footer__top">
         <div class="footer__copyright">
