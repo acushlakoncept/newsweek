@@ -1,6 +1,18 @@
 # Newsweek
 
-In this project, the Twitter’s Bootstrap framework was used to clone the [NewsWeek.com](https://www.newsweek.com/) website.
+In this project, Twitter’s Bootstrap framework was used to clone the [NewsWeek.com](https://www.newsweek.com/) website.
+
+> In the course of working in this project, the following concepts were mastered
+Bootstrap v4.0 Grid Layout
+Flex order class
+Some CSS Advanced Selectors
+Bootstrap classes that change base on screen sizes. (`col-sm`, `col-md`, `col-lg`, and `col-xl`)
+Got a deeper look into the bootstrap v4 documentation.
+
+> I learned a lot in the course of building this project.
+
+> The mobile-first-approach was taken to tackle the design.
+
 
 ![screenshot](#)
 
@@ -9,6 +21,8 @@ In this project, the Twitter’s Bootstrap framework was used to clone the [News
 - HTML
 - CSS
 - Twitter’s Bootstrap framework
+- Stickler for CSS validation
+- FontAwesome
 
 ## Live Demo
 
@@ -25,6 +39,13 @@ $ cd <folder>
 ```
 $ git clone https://github.com/acushlakoncept/newsweek.git
 ```
+
+## Future Implementations
+
+> Making the mobile menu functional
+
+> Implementing the sticky columns on scroll.
+
 
 ## Authors
 
