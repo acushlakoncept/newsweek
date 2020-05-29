@@ -102,9 +102,6 @@ a:hover {
   font-weight: bold;
 }
 
-.weather {
-  display: none;
-}
 
 .user-link {
   color: #d9d9d9;
@@ -121,9 +118,7 @@ a:hover {
   display: none;
 }
 
-.top-menu {
-  display: none;
-}
+
 
 /* TOP MENU STYLES  ENDS */
 
@@ -404,6 +399,7 @@ span.img-content__span {
   font-weight: bold;
   color: var(--red);
   font-size: 14px;
+  line-height: 1.5;
 }
 
 .redbg {
@@ -568,26 +564,6 @@ span.img-content__span {
     margin-bottom: 20px;
   }
 
-  /* .small-bottom-margin {
-    margin-bottom: 0;
-  }
-
-  .top-story {
-    order: 2;
-  }
-
-  .featured {
-    order: 1;
-  }
-
-  .pandemic-heroes {
-    order: 4;
-  }
-
-  .culture {
-    order: 3;
-  } */
-
 
   .c-order-1 {
     order: 1;
@@ -603,13 +579,7 @@ span.img-content__span {
 
   /* TOP MENU STYLES */
 
- 
 
-  
-
-  .fa-user {
-    display: none;
-  }
 
   .login-text {
     display: inline-block;
@@ -617,9 +587,6 @@ span.img-content__span {
     font-weight: 700;
   }
 
-  .weather {
-    display: none;
-  }
 
  
 
@@ -651,9 +618,6 @@ span.img-content__span {
     border-top: none;
   }
 
-  .subribe-box__content {
-    /* padding-left: 120px; */
-  }
 
   .gray-bg {
     background-color: #eee;
@@ -728,7 +692,7 @@ span.img-content__span {
   }
 
   .top-menu__ul {
-    clip-path: polygon(0 0, 90% 0, 93% 18%, 100% 18%, 100% 100%, 0 100%);
+    /* clip-path: polygon(0 0, 90% 0, 93% 18%, 100% 18%, 100% 100%, 0 100%); */
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -752,11 +716,27 @@ span.img-content__span {
   .top-menu__list:not(:nth-last-child(2)) {
     border-right: 1px solid #ddd;
   }
+
+
   .menu-search input {
-    border: none;
-    width: 85px;
     font-weight: 100;
-  }
+    font-size: 20px;
+    border: none;
+    width: 120px;
+    height: 25px;
+    padding: 10px;
+    background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) no-repeat;
+    background-size: 20px;
+    background-position: right center;
+}
+
+
+.menu-search input:focus {
+  outline: none;
+  width: 100%;
+}
+
+
   /* TOP MENU STYLES  ENDS */
 
 }

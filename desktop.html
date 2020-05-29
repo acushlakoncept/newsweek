@@ -55,9 +55,9 @@
         <span class="navbar-toggler-icon"></span>
       </button> -->
     <nav class="navbar navbar-dark bg-red container-fluid">
-      <div class="weather">
+      <div class="weather d-none d-lg-block">
         <p class="weather-text">
-          5 degrees celcius <br /><span class="weather-date"
+          &NoBreak; <br /><span class="weather-date"
             >Wed, May 27, 2020</span
           >
         </p>
@@ -86,11 +86,11 @@
 
       <div class="top__right">
         <a href="#" class="user-link"
-          ><i class="fas fa-user"></i><span class="login-text">Login</span></a
+          ><i class="fas fa-user d-none d-sm-block d-md-none"></i><span class="login-text">Login</span></a
         >
         <a href="#" class="ads-link">Ad Free Trial</a>
         <button
-          class="navbar-toggler hide-border"
+          class="navbar-toggler hide-border d-lg-none"
           type="button"
           data-toggler="collapse"
           data-target="#navbarSupportedContent"
@@ -103,7 +103,7 @@
       </div>
     </nav>
     <div class="container-fluid bg-white">
-      <div class="top-menu">
+      <div class="top-menu d-none d-lg-block d-xl-none">
         <ul class="top-menu__ul">
           <li class="top-menu__list">
             <a href="#" class="color__link">U.S.</a>
@@ -301,6 +301,7 @@
           <!-- END OF TOP STORY -->
 
           <!-- BEGINNING OF HEROES OF THE PANDEMIC -->
+          <div class="pandemic-">
           <h2 class="article-category">
             Heroes of the pandemic
           </h2>
@@ -350,9 +351,11 @@
               </h3>
             </div>
           </div>
+        </div>
           <!-- END OF HEROES OF THE PANDEMIC -->
 
           <!-- BEGINNING OF CULTURE & TRAVEL -->
+          <div class="culture-container">
           <h2 class="article-category">
             Culture & Travel
           </h2>
@@ -409,9 +412,9 @@
               </h3>
             </div>
           </div>
-
+        </div>
           <!-- END OF CULTURE & TRAVEL -->
-
+          <div class="more-stories-container">
           <h2 class="article-category top-margin-small">
             More Stories
           </h2>
@@ -589,10 +592,11 @@
               </h4>
             </div>
           </div>
-
+        </div>
           <!-- END OF MORE STORIES -->
         </div>
         <div class="col-lg-4 c-order-3" >
+
           <div class="bg-white small-bottom-margin">
             <h2 class="article-category top-margin-small">
               The Debate
@@ -774,7 +778,9 @@
           <!-- END OF THE FREE SIGNUP -->
         </div>
       </div>
+      <div class="magazine-container">
 
+      
       <div class="magazine-heading">
         <img src="imgs/logo-n1.svg" class="signup-nlogo" />
         <h4 class="signup-title mag-title">In the Magazine</h4>
@@ -889,8 +895,9 @@
         </div>
       </div>
 
+    </div>
       <!-- END OF 'IN THE MAGAZINE' -->
-
+      <div class="editors-pick-container">
       <div class="magazine-heading">
         <img src="imgs/logo-n1.svg" class="signup-nlogo" />
         <h4 class="signup-title mag-title">Editor's Pick</h4>
@@ -1063,6 +1070,7 @@
         </div>
       </div>
 
+    </div>
       <!-- END OF EDITOR'S PICK -->
 
       <h4 class="signup-title mag-title text-red top-rule">U.S.</h4>
