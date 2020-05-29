@@ -14,7 +14,7 @@ Got a deeper look into the bootstrap v4 documentation.
 > The mobile-first-approach was taken to tackle the design.
 
 
-![screenshot](#)
+![screenshot](./imgs/screenshot.jpg)
 
 ## Built With
 
