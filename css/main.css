@@ -656,6 +656,16 @@ span.img-content__span {
     background-size: cover;
     height: 100%;
   }
+
+  .footer__list:not(:last-child){
+    border-right: 1px solid #ddd;
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+
+  .footer-links__up .footer__list:first-child {
+    border-right: none;
+  }
 }
 
 
@@ -685,6 +695,7 @@ span.img-content__span {
     display: block;
     background-color: var(--red);
     margin-bottom: -15px;
+    position: relative;
   }
 
   .top-menu .color__link:hover {
@@ -717,6 +728,9 @@ span.img-content__span {
     border-right: 1px solid #ddd;
   }
 
+  .menu-search {
+    padding-right: 40px;
+  }
 
   .menu-search input {
     font-weight: 100;
@@ -734,6 +748,16 @@ span.img-content__span {
 .menu-search input:focus {
   outline: none;
   width: 100%;
+}
+
+.bg-hack {
+  position: absolute;
+  top: 0;
+  right: -15px;
+  width: 60px;
+  height: 15px;
+  background-color: var(--red);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
 }
 
 
