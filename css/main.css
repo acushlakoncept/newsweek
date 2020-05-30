@@ -56,6 +56,10 @@ a:hover {
   color: var(--red);
 }
 
+.mobile-center {
+  text-align: center;
+}
+
 .underline-link {
   color: #000;
   border-bottom: 1px solid transparent;
@@ -475,11 +479,12 @@ span.img-content__span {
 .footer {
   background-color: #fff;
   padding: 20px;
+  font-weight: 400;
 }
 
 .footer-logo svg {
   fill: var(--red);
-  height: 30px;
+  height: 33px;
 }
 
 .footer__copyright small {
@@ -492,6 +497,10 @@ span.img-content__span {
   display: flex;
   flex-wrap: wrap;
   margin-left: -38px;
+}
+
+.footer-links__up .footer__list:first-child {
+  font-weight: bold;
 }
 
 .footer__list {
@@ -554,6 +563,10 @@ span.img-content__span {
   /* UTILITY CLASS */
   .small-bottom-margin {
     margin-bottom: 0;
+  }
+
+  .mobile-center {
+    text-align: left;
   }
 
   .bg-white {
