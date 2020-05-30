@@ -14,7 +14,6 @@ In this project, Twitter’s Bootstrap framework was used to clone the [NewsWeek
 
 > The mobile-first-approach was taken to tackle the design.
 
-
 ![screenshot](./imgs/screenshot.jpg)
 
 ## Built With
@@ -27,7 +26,7 @@ In this project, Twitter’s Bootstrap framework was used to clone the [NewsWeek
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/acushlakoncept/newsweek/feature-desktop/index.html)
+[Live Demo Link](https://acushlakoncept.github.io/newsweek/)
 
 ## Getting Started
 
@@ -46,7 +45,6 @@ $ git clone https://github.com/acushlakoncept/newsweek.git
 > Making the mobile menu functional
 
 > Implementing the sticky columns on scroll.
-
 
 ## Authors
 
