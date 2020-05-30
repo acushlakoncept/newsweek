@@ -539,11 +539,11 @@ span.img-content__span {
 
 /* ORDERS */
 .c-order-1 {
-  order: 2;
+  order: 1;
 }
 
 .c-order-2 {
-  order: 1;
+  order: 2;
 }
 
 .c-order-3 {
@@ -569,11 +569,11 @@ span.img-content__span {
   }
 
   .c-order-2 {
-    order: 2;
+    order: 3;
   }
 
   .c-order-3 {
-    order: 3;
+    order: 2;
   }
 
   /* TOP MENU STYLES */
@@ -732,8 +732,7 @@ span.img-content__span {
     width: 120px;
     height: 25px;
     padding: 10px;
-    background:
-      url(https://g.newsweek.com/www/images/icon-search-glass.svg)
+    background: url(https://g.newsweek.com/www/images/icon-search-glass.svg)
       no-repeat;
     background-size: 20px;
     background-position: right center;
